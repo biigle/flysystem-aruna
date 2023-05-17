@@ -1,0 +1,32 @@
+{
+    "name": "biigle/flysystem-aruna",
+    "description": "Flysystem adapter for the Aruna Object Storage.",
+    "keywords": [
+        "filesystem", "filesystems", "files", "biigle",
+        "storage", "flysystem", "aruna", "aruna"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Zurowietz",
+            "email": "martin@cebitec.uni-bielefeld.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Biigle\\Flysystem\\Aruna\\": "src/"
+        }
+    },
+    "require": {
+        "league/flysystem": "^3.0",
+        "guzzlehttp/guzzle": "^6.0|^7.3",
+        "league/mime-type-detection": "^1.0",
+        "league/flysystem-aws-s3-v3": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.4",
+        "symfony/var-dumper": "^6.2",
+        "league/flysystem-adapter-test-utilities": "^3.15"
+    }
+}
