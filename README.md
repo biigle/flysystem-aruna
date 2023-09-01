@@ -47,3 +47,9 @@ $exists = $adapter->fileExists('path/to/file.jpg');
 var_dump($exists);
 // bool(true);
 ```
+
+## Funding
+
+This work was supported by the German Research Foundation (DFG) within the project “Establishment of the National Research Data Infrastructure (NFDI)” in the consortium NFDI4Biodiversity (project number 442032008).
+
+![NFDI4Biodiversity Logo](NFDI_4_Biodiversity___Logo_Positiv.svg)
