@@ -24,7 +24,7 @@ class ArunaAdapterTest extends TestCase
                 'secret' => 'mysecret',
             ],
             'endpoint' => 'https://latest.collection.project.data.gi.aruna-storage.org',
-            'region' => '',
+            'region' => 'us-west-2',
             'version' => 'latest',
             'bucket_endpoint' => true,
         ]);
