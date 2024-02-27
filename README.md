@@ -2,6 +2,8 @@
 
 [![Tests](https://github.com/biigle/flysystem-aruna/actions/workflows/php.yml/badge.svg)](https://github.com/biigle/flysystem-aruna/actions/workflows/php.yml)
 
+⚠️ This package is archived because AOS can now be used via the S3 protocol only.
+
 Flysystem adapter for the Aruna Object Storage.
 
 This adapter performs most of the operations via S3. Only `listContents` requires an HTTP client and collection ID. Once the ListObjectV2 S3 operation is [implemented](https://github.com/ArunaStorage/DataProxy/issues/19) in Aruna, this adapter can be deprecated and the S3 adapter can be used directly.
